@@ -74,3 +74,5 @@ then
   git init > /dev/null
   exit
 fi
+
+log_info "Done!"
