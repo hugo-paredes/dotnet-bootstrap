@@ -63,3 +63,14 @@ dotnet sln $sln_name.sln add src/$project_name/$project_name.csproj > /dev/null
 
 log_info "Adding .gitignore file..."
 curl -s https://raw.githubusercontent.com/github/gitignore/main/VisualStudio.gitignore > .gitignore
+
+log_info "Building solution..."
+dotnet build --nologo
+
+
+if command -v git &> /dev/null
+then
+  log_info "Initializing git..."
+  git init > /dev/null
+  exit
+fi
