@@ -36,7 +36,7 @@ Disable https? (y/N): y
 [INFO] Building solution...
   Determining projects to restore...
   All projects are up-to-date for restore.
-  ProjectWebApi -> /Users/hugo/src/dotnet-bootstrap/example/src/ProjectWebApi/bin/Debug/net6.0/ProjectWebApi.dll
+  ProjectWebApi -> ~/src/dotnet-bootstrap/example/src/ProjectWebApi/bin/Debug/net6.0/ProjectWebApi.dll
 
 Build succeeded.
     0 Warning(s)

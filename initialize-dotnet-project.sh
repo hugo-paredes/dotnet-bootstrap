@@ -13,7 +13,7 @@ function log_error() {
 
 if ! command -v dotnet &> /dev/null
 then
-  echo "dotnet is not installed"
+  log_error "dotnet is not installed"
   exit
 fi
 
