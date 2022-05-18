@@ -14,13 +14,13 @@ Script that helps and simplifies the creation of a .NET Core project. It execute
 Simply execute the command below and follow the prompts.
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/hugo-paredes/dotnet-bootstrap/main/bootstrap.sh)
+$ bash <(curl -s https://raw.githubusercontent.com/hugo-paredes/dotnet-bootstrap/main/bootstrap.sh)
 ```
 
 ### Example
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/hugo-paredes/dotnet-bootstrap/main/bootstrap.sh)
+$ bash <(curl -s https://raw.githubusercontent.com/hugo-paredes/dotnet-bootstrap/main/bootstrap.sh)
 Enter the name of the solution: SolutionName
 Enter the name of the project: ProjectWebApi
 Select the type of project:
